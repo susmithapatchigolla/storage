@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "idrest3ba3f2d4",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "apie0097808",
+  "apiName": "apie0097808",
+  "functionArns": [
+    {
+      "lambdaFunction": "idrest3ba3f2d4"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-idrest-dev-82748-authRole",
+    "unAuthRoleName": "amplify-idrest-dev-82748-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "idrest3ba3f2d4",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

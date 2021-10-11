@@ -12,18 +12,13 @@
       "AmplifyAppId": "dwh6lf4q8vqb8"
     },
     "categories": {
+      "auth": {
+        "cognitob034eb14": {}
+      },
       "function": {
-        "idrestdf03fa05": {
+        "idrest3ba3f2d4": {
           "deploymentBucketName": "amplify-idrest-dev-82748-deployment",
-          "s3Key": "amplify-builds/idrestdf03fa05-6c516f633442462b3964-build.zip"
-        },
-        "idrest52a183f0": {
-          "deploymentBucketName": "amplify-idrest-dev-82748-deployment",
-          "s3Key": "amplify-builds/idrest52a183f0-4c612b695367416e555a-build.zip"
-        },
-        "idrest43363255": {
-          "deploymentBucketName": "amplify-idrest-dev-82748-deployment",
-          "s3Key": "amplify-builds/idrest43363255-6f4f69304f7a72387278-build.zip"
+          "s3Key": "amplify-builds/idrest3ba3f2d4-41627131766832735532-build.zip"
         }
       }
     }

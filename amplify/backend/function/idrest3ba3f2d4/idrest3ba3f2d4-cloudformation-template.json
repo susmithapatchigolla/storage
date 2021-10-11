@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "idrest43363255",
+            "idrest3ba3f2d4",
             {
               "Fn::Join": [
                 "",
                 [
-                  "idrest43363255",
+                  "idrest3ba3f2d4",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "idrestLambdaRole11a9f42f",
+            "idrestLambdaRole677b7dc3",
             {
               "Fn::Join": [
                 "",
                 [
-                  "idrestLambdaRole11a9f42f",
+                  "idrestLambdaRole677b7dc3",
                   "-",
                   {
                     "Ref": "env"
