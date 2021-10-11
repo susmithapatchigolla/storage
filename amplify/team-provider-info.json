@@ -1,29 +1,29 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-storage-dev-160553-authRole",
-      "UnauthRoleArn": "arn:aws:iam::728254692372:role/amplify-storage-dev-160553-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::728254692372:role/amplify-storage-dev-160553-authRole",
+      "AuthRoleName": "amplify-idrest-dev-82748-authRole",
+      "UnauthRoleArn": "arn:aws:iam::728254692372:role/amplify-idrest-dev-82748-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::728254692372:role/amplify-idrest-dev-82748-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-storage-dev-160553-deployment",
-      "UnauthRoleName": "amplify-storage-dev-160553-unauthRole",
-      "StackName": "amplify-storage-dev-160553",
-      "StackId": "arn:aws:cloudformation:us-east-1:728254692372:stack/amplify-storage-dev-160553/07a3e070-25c8-11ec-92d0-0ec1afcbebaf",
-      "AmplifyAppId": "dhuap6uf1subx"
+      "DeploymentBucketName": "amplify-idrest-dev-82748-deployment",
+      "UnauthRoleName": "amplify-idrest-dev-82748-unauthRole",
+      "StackName": "amplify-idrest-dev-82748",
+      "StackId": "arn:aws:cloudformation:us-east-1:728254692372:stack/amplify-idrest-dev-82748/08655e50-2a3f-11ec-8130-0ad771816947",
+      "AmplifyAppId": "dwh6lf4q8vqb8"
     },
     "categories": {
-      "auth": {
-        "storage0be54f8d": {
-          "facebookAppId": "12345",
-          "googleClientId": "123",
-          "amazonAppId": "12344",
-          "appleAppId": "2121"
-        }
-      },
       "function": {
-        "S3Trigger2148a097": {
-          "deploymentBucketName": "amplify-storage-dev-160553-deployment",
-          "s3Key": "amplify-builds/S3Trigger2148a097-5a57766778597a526c34-build.zip"
+        "idrestdf03fa05": {
+          "deploymentBucketName": "amplify-idrest-dev-82748-deployment",
+          "s3Key": "amplify-builds/idrestdf03fa05-6c516f633442462b3964-build.zip"
+        },
+        "idrest52a183f0": {
+          "deploymentBucketName": "amplify-idrest-dev-82748-deployment",
+          "s3Key": "amplify-builds/idrest52a183f0-4c612b695367416e555a-build.zip"
+        },
+        "idrest43363255": {
+          "deploymentBucketName": "amplify-idrest-dev-82748-deployment",
+          "s3Key": "amplify-builds/idrest43363255-6f4f69304f7a72387278-build.zip"
         }
       }
     }
